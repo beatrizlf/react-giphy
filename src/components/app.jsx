@@ -7,8 +7,8 @@ import GifList from './gif_list.jsx';
 class App extends Component {
   render() {
     const gifs = [
-      { id: },
-      { id: }
+      { id: "IgLt8tZcGGYXS" },
+      { id: "IgLt8tZcGGYXS" }
     ]
 
     return (
@@ -16,7 +16,7 @@ class App extends Component {
         <div className="left-scene">
           <SearchBar />
           <div className="selected-gif">
-            <Gif id={IgLt8tZcGGYXS} />
+            <Gif id="IgLt8tZcGGYXS" />
           </div>
         </div>
         <div className="right-scene">
